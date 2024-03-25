@@ -1,0 +1,1 @@
+Note: The trained models will be stored in this folder. Each model will be saved under the "project" name defined in the main script. The trained models are used to classify (i.e., predict) the unlabeled part of the text data. Results are stored in the "data" folder. 

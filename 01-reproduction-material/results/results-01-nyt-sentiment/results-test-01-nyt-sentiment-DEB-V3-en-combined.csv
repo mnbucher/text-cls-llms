@@ -1,0 +1,5 @@
+accuracy: 0.92 +/- 0.015
+precision: 0.925 +/- 0.012
+recall: 0.92 +/- 0.015
+f1 score macro: 0.9 +/- 0.017
+f1 score weighted: 0.921 +/- 0.014

@@ -1,0 +1,1 @@
+Note: The "output" folder is intentionally empty. When running the script, intermediate outputs will be temporarily stored here before being moved into the "results" folder.

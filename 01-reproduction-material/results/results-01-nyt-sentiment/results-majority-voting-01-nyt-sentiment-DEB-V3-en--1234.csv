@@ -1,0 +1,2 @@
+epoch,precision,f1 score (weighted),f1 score (macro),accuracy,recall
+None,0.526675354,0.610381901,0.42053307,0.72572402,0.72572402
