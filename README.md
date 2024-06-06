@@ -2,7 +2,7 @@
 
 Authors: [ Martin Juan José Bucher ](https://www.mnbucher.com), [ Marco Martini ](https://www.catherinedewolf.com/about)
 
-[ [ Paper ] ](https://www.sciencedirect.com/science/article/pii/S0926580523003886) – Published on ArXiV, June 2024
+[ [ Paper ] ](https://www.sciencedirect.com/science/article/pii/S0926580523003886) – Published on arXiv, June 2024
 
 ## Table of Contents
 1. [ Abstract ](#abstract)
@@ -36,7 +36,7 @@ Install Jupyter through the pip package manager and the Command Line Interface (
 The following sections describe the individual cells in the `'pipeline-finetuning.ipynb'` notebook. After installing Jupyter Notebook, launch the `'pipeline-finetuning.ipynb'` file. Code cells in Jupyter Notebook can be executed via Menu > Run > Run Selected Cell (or simply with Shift + Enter).
 
 #### Code Block A
-The first code block installs and imports required packages. You may need to install some additional packages (depending on your environment). No modifications are necessary here if packages are installed correctly.
+The first code block is made up of three smaller code blocks and will install and import all the required packages. If you are running this notebook for the first time, you may want to uncomment all lines in the first code block that start with "!pip ...". Running this block will then install all necessary packages via `pip`. If you want to enable reproducibility for later runs, you can also run the second block, but it is not required. After the first block has installed the packages, you can run the third block to load the packages into your Python runtime. No changes are necessary if all packages have already been installed. To speed up later runs, you can comment out the first block again to avoid reinstalling all packages if you run the notebook multiple times. Thus, only the third block is needed for later runs to correctly load all installed required packages.
 
 #### Code Block B
 Next, define the required parameters (variables). In particular, set the following variables:
