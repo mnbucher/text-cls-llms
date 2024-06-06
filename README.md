@@ -1,6 +1,6 @@
 # Fine-Tuned ‘Small’ LLMs (Still) Outperform Zero-Shot Generative AI Models in Text Classification
 
-Authors: [ Martin Juan José Bucher ](https://www.mnbucher.com), [ Marco Martini ](https://www.catherinedewolf.com/about)
+Authors: [ Martin Juan José Bucher ](https://www.mnbucher.com), [ Marco Martini ](https://www.linkedin.com/in/marco-martini/)
 
 [ [ Paper ] ](https://www.sciencedirect.com/science/article/pii/S0926580523003886) – Published on arXiv, June 2024
 
