@@ -5,10 +5,10 @@ Authors: [ Martin Juan José Bucher ](https://www.mnbucher.com), [ Marco Martini
 [ [ Paper ] ](https://www.sciencedirect.com/science/article/pii/S0926580523003886) – Published on arXiv, June 2024
 
 ## Table of Contents
-1. [ Abstract ](#abstract)
-2. [ How to Use Our Toolkit ](#toolkit)
-3. [ Results ](#results)
-4. [ Citation ](#citation)
+1. [ Abstract ](#1--abstract)
+2. [ How to Use Our Toolkit ](#2--how-to-use-our-toolkit)
+3. [ Results ](#3--results)
+4. [ Citation ](#4--citation)
 
 ## 1 — Abstract
 Generative AI offers a simple, prompt-based alternative to fine-tuning smaller BERT-style LLMs for text classification tasks, seemingly eliminating the need for manually labeled training data. However, empirical evidence is mixed as to whether tools like ChatGPT can completely replace the need for training models on labeled data. In this paper, we show that smaller, fine-tuned LLMs (still) consistently and significantly outperform larger, zero-shot prompted models in text classification. We compare three major generative AI models (ChatGPT with GPT-3.5 / GPT-4 and Claude Opus) with several fine-tuned LLMs across a diverse set of classification tasks (sentiment, approval/disapproval, emotions, party positions) and text categories (news, tweets, speeches). We find that fine-tuning with application-specific training data achieves superior performance in all cases. To make this approach more accessible to a broader audience, we provide an easy-to-use toolkit along with this paper. Our toolkit, accompanied by non-technical step-by-step guidance, enables users to select and fine-tune BERT-like LLMs for any classification task with minimal technical and computational effort.
@@ -207,7 +207,7 @@ Figure 1 show how model performance increases with training data size. For model
 
 Figure 1: Effect of training set size on model performance: Results for ROB-LRG with varying number of training observations N = {50, 100, 200, 500, 1000}. The translucent markers above the 0-point denote the zero-shot results of BART. The rightmost points denote model performance if trained on the full dataset.
 
-## Citation
+## 4 — Citation
 If using our toolkit or reference our work, please cite us as follows:
 
 ```bibtex
