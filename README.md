@@ -1,8 +1,8 @@
-# Fine-Tuned ‘Small’ LLMs (Still) Outperform Zero-Shot Generative AI Models in Text Classification
+# Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot Generative AI Models in Text Classification
 
 Authors: [ Martin Juan José Bucher ](https://www.mnbucher.com), [ Marco Martini ](https://www.linkedin.com/in/marco-martini/)
 
-[ [ Paper ] ](https://www.sciencedirect.com/science/article/pii/S0926580523003886) – Published on arXiv, June 2024
+[ [ Paper ] ](https://arxiv.org/pdf/2406.08660) – Published on arXiv, June 2024
 
 ## Table of Contents
 1. [ Abstract ](#1--abstract)
@@ -211,10 +211,10 @@ Figure 1: Effect of training set size on model performance: Results for ROB-LRG 
 If using our toolkit or reference our work, please cite us as follows:
 
 ```bibtex
-@article{raghu2023resourcecadastre,
-  title={Towards a Resource Cadastre for a Circular Economy – Urban-Scale Building Material Detection Using Street View Imagery and Computer Vision},
-  author={Raghu, D. and Bucher, M. and DeWolf, C.},
-  journal={Resources, Conservation and Recycling},
-  year={2023}
+@article{bucher2024fine,
+  title={Fine-Tuned'Small'LLMs (Still) Significantly Outperform Zero-Shot Generative AI Models in Text Classification},
+  author={Bucher, Martin Juan Jos{\'e} and Martini, Marco},
+  journal={arXiv preprint arXiv:2406.08660},
+  year={2024}
 }
 ```
